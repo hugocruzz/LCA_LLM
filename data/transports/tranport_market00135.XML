@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ecoSpold xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.EcoInvent.org/EcoSpold01" xsi:schemaLocation="http://www.EcoInvent.org/EcoSpold01 http://www.EcoInvent.org/EcoSpold01..\..\EcoSpold01Dataset.xsd">
+  <dataset validCompanyCodes="CompanyCodes.xml" validRegionalCodes="RegionalCodes.xml" validCategories="Categories.xml" validUnits="Units.xml" number="135" timestamp="2022-01-12T15:59:54" generator="SimaPro 9.4.0.2">
+    <metaInformation>
+      <processInformation>
+        <referenceFunction datasetRelatesToProduct="true" name="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, EURO1 to generic market for transport, freight, lorry, unspecified | APOS, U" localName="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, EURO1 to generic market for transport, freight, lorry, unspecified | APOS, U" infrastructureProcess="false" amount="1" unit="tkm" category="Road" subCategory="Market" localCategory="Road" localSubCategory="Market" infrastructureIncluded="false"/>
+        <geography location="GLO" text="The inventory is modelled for South Africa"/>
+        <technology text=""/>
+        <timePeriod dataValidForEntirePeriod="" text="">
+          <startDate>1900-01-01</startDate>
+          <endDate>1900-01-01</endDate>
+        </timePeriod>
+        <dataSetInformation type="1" impactAssessmentResult="false" timestamp="2022-01-12T15:59:54" version="1.3." internalVersion="0.0" energyValues="0" languageCode="en" localLanguageCode="de"/>
+      </processInformation>
+      <modellingAndValidation>
+        <representativeness productionVolume="14849999872 tkm" extrapolations="This dataset has been extrapolated from year 2019 to the year of the calculation (2021). The uncertainty has been adjusted accordingly."/>
+        <source number="1" sourceType="0" firstAuthor="Unknown" year="2022" title="Ecoinvent 3" placeOfPublications="Unspecified"/>
+      </modellingAndValidation>
+      <administrativeInformation>
+        <dataEntryBy person="2" qualityNetwork="1"/>
+        <dataGeneratorAndPublication person="3" dataPublishedIn="2" referenceToPublishedSource="1" accessRestrictedTo="0" copyright="false"/>
+        <person number="2" name="Lucia Valsasina valsasina@ecoinvent.org Technoparkstrasse 1, 8005 Zurich, Switzerland is active author: False" address="Unknown"/>
+        <person number="3" name="SimaPro" address="Unknown"/>
+      </administrativeInformation>
+    </metaInformation>
+    <flowData>
+      <exchange number="1" name="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, EURO1 to generic market for transport, freight, lorry, unspecified | APOS, U" location="GLO" unit="tkm" meanValue="1" generalComment="&#xA;Production Volume Amount: 14849999872" infrastructureProcess="false">
+        <outputGroup>0</outputGroup>
+      </exchange>
+      <exchange number="2" name="transport, freight, lorry >32 metric ton, EURO1 {ZA}| market for transport, freight, lorry >32 metric ton, EURO1 | APOS, U" location="GLO" unit="tkm" meanValue="0.7196" uncertaintyType="1" standardDeviation95="1.0502" generalComment="(1,1,2,1,1,na)&#xA;Calculated from the production volumes.&#xA;&#xA;The production volume is taken from the &#34;&#34;transport, freight, lorry, ..., EURO3&#34;&#34; activities. There the production volumes for Europe are taken from the TREMOVE project and the GLO production volumes are calculated using GDP scaling. If the GDP of the whole world (GLO) is 1 the GDP of Europe (RER) is 0.289.&#xA;&#xA;It is estimated, that 10% of this transport is used for transport of goods in need of atmosphere control. And thus this production volume is included in the &#34;&#34;transport, freight, lorry ... with refrigeration machine&#34;&#34; datasets.&#xA;&#xA;It is also estimated, that 50% of the production volume of this transport is transfered to the generic market for transport, freight, lorry, unspecified. Which means, that 50% of people using this transport do not know or do not care about the size of the vehicle and the EURO class." infrastructureProcess="false">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="3" name="transport, freight, lorry 16-32 metric ton, EURO1 {ZA}| market for transport, freight, lorry 16-32 metric ton, EURO1 | APOS, U" location="GLO" unit="tkm" meanValue="0.0571" uncertaintyType="1" standardDeviation95="1.0502" generalComment="(1,1,2,1,1,na)&#xA;Calculated from the production volumes.&#xA;&#xA;The production volume is taken from the &#34;&#34;transport, freight, lorry, ..., EURO3&#34;&#34; activities. There the production volumes for Europe are taken from the TREMOVE project and the GLO production volumes are calculated using GDP scaling. If the GDP of the whole world (GLO) is 1 the GDP of Europe (RER) is 0.289.&#xA;&#xA;It is estimated, that 10% of this transport is used for transport of goods in need of atmosphere control. And thus this production volume is included in the &#34;&#34;transport, freight, lorry ... with refrigeration machine&#34;&#34; datasets.&#xA;&#xA;It is also estimated, that 50% of the production volume of this transport is transfered to the generic market for transport, freight, lorry, unspecified. Which means, that 50% of people using this transport do not know or do not care about the size of the vehicle and the EURO class." infrastructureProcess="false">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="4" name="transport, freight, lorry 3.5-7.5 metric ton, EURO1 {ZA}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO1 | APOS, U" location="GLO" unit="tkm" meanValue="0.0804" uncertaintyType="1" standardDeviation95="1.0502" generalComment="(1,1,2,1,1,na)&#xA;Calculated from the production volumes.&#xA;&#xA;The production volume is taken from the &#34;&#34;transport, freight, lorry, ..., EURO3&#34;&#34; activities. There the production volumes for Europe are taken from the TREMOVE project and the GLO production volumes are calculated using GDP scaling. If the GDP of the whole world (GLO) is 1 the GDP of Europe (RER) is 0.289.&#xA;&#xA;It is estimated, that 10% of this transport is used for transport of goods in need of atmosphere control. And thus this production volume is included in the &#34;&#34;transport, freight, lorry ... with refrigeration machine&#34;&#34; datasets.&#xA;&#xA;It is also estimated, that 50% of the production volume of this transport is transfered to the generic market for transport, freight, lorry, unspecified. Which means, that 50% of people using this transport do not know or do not care about the size of the vehicle and the EURO class." infrastructureProcess="false">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="5" name="transport, freight, lorry 7.5-16 metric ton, EURO1 {ZA}| market for transport, freight, lorry 7.5-16 metric ton, EURO1 | APOS, U" location="GLO" unit="tkm" meanValue="0.1429" uncertaintyType="1" standardDeviation95="1.0502" generalComment="(1,1,2,1,1,na)&#xA;Calculated from the production volumes.&#xA;&#xA;The production volume is taken from the &#34;&#34;transport, freight, lorry, ..., EURO3&#34;&#34; activities. There the production volumes for Europe are taken from the TREMOVE project and the GLO production volumes are calculated using GDP scaling. If the GDP of the whole world (GLO) is 1 the GDP of Europe (RER) is 0.289.&#xA;&#xA;It is estimated, that 10% of this transport is used for transport of goods in need of atmosphere control. And thus this production volume is included in the &#34;&#34;transport, freight, lorry ... with refrigeration machine&#34;&#34; datasets.&#xA;&#xA;It is also estimated, that 50% of the production volume of this transport is transfered to the generic market for transport, freight, lorry, unspecified. Which means, that 50% of people using this transport do not know or do not care about the size of the vehicle and the EURO class." infrastructureProcess="false">
+        <inputGroup>5</inputGroup>
+      </exchange>
+    </flowData>
+  </dataset>
+</ecoSpold>

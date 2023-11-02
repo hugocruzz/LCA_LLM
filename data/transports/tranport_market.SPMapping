@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <categories>
+    <category name="air" type="substance" internalName="Air">
+      <subCategory name="(unspecified)" substanceType="Air" abbreviation="(unspecified)"/>
+      <subCategory name="high population density" substanceType="Air" abbreviation="high. pop."/>
+      <subCategory name="indoor" substanceType="Air" abbreviation="indoor"/>
+      <subCategory name="low population density" substanceType="Air" abbreviation="low. pop."/>
+      <subCategory name="low population density, long-term" substanceType="Air" abbreviation="low. pop., long-term"/>
+      <subCategory name="lower stratosphere + upper troposphere" substanceType="Air" abbreviation="stratosphere + troposphere"/>
+      <subCategory name="stratosphere" substanceType="Air" abbreviation="stratosphere"/>
+    </category>
+    <category name="economic" type="substance" internalName="Economic">
+      <subCategory name="(unspecified)" substanceType="Eco" abbreviation="(unspecified)"/>
+    </category>
+    <category name="non mat." type="substance" internalName="Non mat.">
+      <subCategory name="(unspecified)" substanceType="Ivt" abbreviation="(unspecified)"/>
+    </category>
+    <category name="raw" type="substance" internalName="Raw">
+      <subCategory name="(unspecified)" substanceType="Raw" abbreviation="(unspecified)"/>
+      <subCategory name="biotic" substanceType="Raw" abbreviation="biotic"/>
+      <subCategory name="in air" substanceType="Raw" abbreviation="in air"/>
+      <subCategory name="in ground" substanceType="Raw" abbreviation="in ground"/>
+      <subCategory name="in water" substanceType="Raw" abbreviation="in water"/>
+      <subCategory name="land" substanceType="Raw" abbreviation="land"/>
+    </category>
+    <category name="Road" type="process">
+      <subCategory name="Market" processType="transport"/>
+    </category>
+    <category name="social" type="substance" internalName="Social">
+      <subCategory name="(unspecified)" substanceType="Soc" abbreviation="(unspecified)"/>
+    </category>
+    <category name="soil" type="substance" internalName="Soil">
+      <subCategory name="(unspecified)" substanceType="Soi" abbreviation="(unspecified)"/>
+      <subCategory name="agricultural" substanceType="Soi" abbreviation="agricultural"/>
+      <subCategory name="forestry" substanceType="Soi" abbreviation="forestry"/>
+      <subCategory name="industrial" substanceType="Soi" abbreviation="industrial"/>
+      <subCategory name="urban, non industrial" substanceType="Soi" abbreviation="urban, non industrial"/>
+    </category>
+    <category name="waste" type="substance" internalName="Waste">
+      <subCategory name="(unspecified)" substanceType="Sol" abbreviation="(unspecified)"/>
+    </category>
+    <category name="water" type="substance" internalName="Water">
+      <subCategory name="(unspecified)" substanceType="Wat" abbreviation="(unspecified)"/>
+      <subCategory name="fossilwater" substanceType="Wat" abbreviation="fossilwater"/>
+      <subCategory name="groundwater" substanceType="Wat" abbreviation="groundwater"/>
+      <subCategory name="groundwater, long-term" substanceType="Wat" abbreviation="groundwater, long-term"/>
+      <subCategory name="lake" substanceType="Wat" abbreviation="lake"/>
+      <subCategory name="ocean" substanceType="Wat" abbreviation="ocean"/>
+      <subCategory name="river" substanceType="Wat" abbreviation="river"/>
+      <subCategory name="river, long-term" substanceType="Wat" abbreviation="river, long-term"/>
+    </category>
+  </categories>
+  <processes>
+    <process name="energy use and operation emissions, electric bicycle {GLO}| market for | APOS, U" newName="" localName="energy use and operation emissions, electric bicycle {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507920" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="energy use and operation emissions, electric bicycle, electricity from renewable energy products {GLO}| market for energy use and operation emissions, electric bicycle, electricity from renewable energy products | APOS, U" newName="" localName="energy use and operation emissions, electric bicycle, electricity from renewable energy products {GLO}| market for energy use and operation emissions, electric bicycle, electricity from renewable energy products | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507458" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="municipal waste collection service by 21 metric ton lorry {GLO}| market for | APOS, U" newName="" localName="municipal waste collection service by 21 metric ton lorry {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507917" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle {CH}| market for transport, freight, light commercial vehicle | APOS, U" newName="" localName="transport, freight, light commercial vehicle {CH}| market for transport, freight, light commercial vehicle | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517749" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle {Europe without Switzerland}| market for transport, freight, light commercial vehicle | APOS, U" newName="" localName="transport, freight, light commercial vehicle {Europe without Switzerland}| market for transport, freight, light commercial vehicle | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517821" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle {GLO}| market group for transport, freight, light commercial vehicle | APOS, U" newName="" localName="transport, freight, light commercial vehicle {GLO}| market group for transport, freight, light commercial vehicle | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518160" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle {RER}| market group for transport, freight, light commercial vehicle | APOS, U" newName="" localName="transport, freight, light commercial vehicle {RER}| market group for transport, freight, light commercial vehicle | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518322" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle {RoW}| market for transport, freight, light commercial vehicle | APOS, U" newName="" localName="transport, freight, light commercial vehicle {RoW}| market for transport, freight, light commercial vehicle | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518222" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle {ZA}| market for transport, freight, light commercial vehicle | APOS, U" newName="" localName="transport, freight, light commercial vehicle {ZA}| market for transport, freight, light commercial vehicle | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521230" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle {ZA}| transport, freight, light commercial vehicle, all, to generic market for transport, freight, light commercial vehicle | APOS, U" newName="" localName="transport, freight, light commercial vehicle {ZA}| transport, freight, light commercial vehicle, all, to generic market for transport, freight, light commercial vehicle | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521666" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle, EURO1 {ZA}| market for transport, freight, light commercial vehicle, EURO1 | APOS, U" newName="" localName="transport, freight, light commercial vehicle, EURO1 {ZA}| market for transport, freight, light commercial vehicle, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521231" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle, EURO2 {ZA}| market for transport, freight, light commercial vehicle, EURO2 | APOS, U" newName="" localName="transport, freight, light commercial vehicle, EURO2 {ZA}| market for transport, freight, light commercial vehicle, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521232" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, light commercial vehicle, unregulated {ZA}| market for transport, freight, light commercial vehicle, unregulated | APOS, U" newName="" localName="transport, freight, light commercial vehicle, unregulated {ZA}| market for transport, freight, light commercial vehicle, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521233" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, EURO1 {BR}| market for transport, freight, lorry >32 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, EURO1 {BR}| market for transport, freight, lorry >32 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523590" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, EURO1 {ZA}| market for transport, freight, lorry >32 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, EURO1 {ZA}| market for transport, freight, lorry >32 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521234" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, EURO2 {BR}| market for transport, freight, lorry >32 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, EURO2 {BR}| market for transport, freight, lorry >32 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523591" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, EURO2 {ZA}| market for transport, freight, lorry >32 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, EURO2 {ZA}| market for transport, freight, lorry >32 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521235" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, EURO3 {BR}| market for transport, freight, lorry >32 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, EURO3 {BR}| market for transport, freight, lorry >32 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523592" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro3 {RER}| market for transport, freight, lorry >32 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro3 {RER}| market for transport, freight, lorry >32 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517904" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro3 {RoW}| market for transport, freight, lorry >32 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro3 {RoW}| market for transport, freight, lorry >32 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517895" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro4 {RER}| market for transport, freight, lorry >32 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro4 {RER}| market for transport, freight, lorry >32 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518608" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro4 {RoW}| market for transport, freight, lorry >32 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro4 {RoW}| market for transport, freight, lorry >32 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518086" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, EURO5 {BR}| market for transport, freight, lorry >32 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, EURO5 {BR}| market for transport, freight, lorry >32 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523593" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro5 {RER}| market for transport, freight, lorry >32 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro5 {RER}| market for transport, freight, lorry >32 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667519264" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro5 {RoW}| market for transport, freight, lorry >32 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro5 {RoW}| market for transport, freight, lorry >32 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517966" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro6 {RER}| market for transport, freight, lorry >32 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro6 {RER}| market for transport, freight, lorry >32 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518015" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, euro6 {RoW}| market for transport, freight, lorry >32 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, euro6 {RoW}| market for transport, freight, lorry >32 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518096" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, unregulated {BR}| market for transport, freight, lorry >32 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, unregulated {BR}| market for transport, freight, lorry >32 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523594" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry >32 metric ton, unregulated {ZA}| market for transport, freight, lorry >32 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry >32 metric ton, unregulated {ZA}| market for transport, freight, lorry >32 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521236" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, EURO1 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, EURO1 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523595" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, EURO1 {ZA}| market for transport, freight, lorry 16-32 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, EURO1 {ZA}| market for transport, freight, lorry 16-32 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521237" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, EURO2 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, EURO2 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523596" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, EURO2 {ZA}| market for transport, freight, lorry 16-32 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, EURO2 {ZA}| market for transport, freight, lorry 16-32 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521238" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, EURO3 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, EURO3 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523597" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro3 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro3 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518842" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro3 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro3 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518392" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro4 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro4 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518777" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro4 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro4 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517709" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, EURO5 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, EURO5 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523598" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro5 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro5 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518492" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro5 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro5 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667519230" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro6 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro6 {RER}| market for transport, freight, lorry 16-32 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518198" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, euro6 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, euro6 {RoW}| market for transport, freight, lorry 16-32 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518864" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, unregulated {BR}| market for transport, freight, lorry 16-32 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, unregulated {BR}| market for transport, freight, lorry 16-32 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523599" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 16-32 metric ton, unregulated {ZA}| market for transport, freight, lorry 16-32 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry 16-32 metric ton, unregulated {ZA}| market for transport, freight, lorry 16-32 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521239" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% {CH}| market for transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% | APOS, U" newName="" localName="transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% {CH}| market for transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517674" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% {GLO}| market group for transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% | APOS, U" newName="" localName="transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% {GLO}| market group for transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518771" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% {RoW}| market for transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% | APOS, U" newName="" localName="transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% {RoW}| market for transport, freight, lorry 28 metric ton, fatty acid methyl ester 100% | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518980" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, EURO1 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, EURO1 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523600" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, EURO1 {ZA}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, EURO1 {ZA}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521240" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, EURO2 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, EURO2 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523601" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, EURO2 {ZA}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, EURO2 {ZA}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521241" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, EURO3 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, EURO3 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523602" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro3 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro3 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667519263" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro3 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro3 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518472" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro4 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro4 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518073" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro4 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro4 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518796" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, EURO5 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, EURO5 {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523603" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro5 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro5 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517731" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro5 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro5 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518656" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro6 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro6 {RER}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518825" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, euro6 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, euro6 {RoW}| market for transport, freight, lorry 3.5-7.5 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518364" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, unregulated {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, unregulated {BR}| market for transport, freight, lorry 3.5-7.5 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523604" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 3.5-7.5 metric ton, unregulated {ZA}| market for transport, freight, lorry 3.5-7.5 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry 3.5-7.5 metric ton, unregulated {ZA}| market for transport, freight, lorry 3.5-7.5 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521242" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, EURO1 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, EURO1 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523605" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, EURO1 {ZA}| market for transport, freight, lorry 7.5-16 metric ton, EURO1 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, EURO1 {ZA}| market for transport, freight, lorry 7.5-16 metric ton, EURO1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521243" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, EURO2 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, EURO2 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523606" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, EURO2 {ZA}| market for transport, freight, lorry 7.5-16 metric ton, EURO2 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, EURO2 {ZA}| market for transport, freight, lorry 7.5-16 metric ton, EURO2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521244" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, EURO3 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, EURO3 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523607" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro3 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro3 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518092" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro3 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO3 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro3 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517819" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro4 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro4 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518515" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro4 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO4 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro4 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518046" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, EURO5 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, EURO5 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523608" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro5 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro5 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518606" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro5 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO5 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro5 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667519066" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro6 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro6 {RER}| market for transport, freight, lorry 7.5-16 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667519182" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, euro6 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO6 | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, euro6 {RoW}| market for transport, freight, lorry 7.5-16 metric ton, EURO6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518078" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, unregulated {BR}| market for transport, freight, lorry 7.5-16 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, unregulated {BR}| market for transport, freight, lorry 7.5-16 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523609" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry 7.5-16 metric ton, unregulated {ZA}| market for transport, freight, lorry 7.5-16 metric ton, unregulated | APOS, U" newName="" localName="transport, freight, lorry 7.5-16 metric ton, unregulated {ZA}| market for transport, freight, lorry 7.5-16 metric ton, unregulated | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521245" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with reefer, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with reefer, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515002" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with reefer, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with reefer, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515004" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refri(...)_1 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refri(...)_1 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515006" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refr(...)_11 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, carbon dioxide, liquid refr(...)_11 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515008" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515010" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO3, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515012" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refri(...)_2 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refri(...)_2 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515014" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refr(...)_10 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, carbon dioxide, liquid refr(...)_10 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515016" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515018" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO4, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515020" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refri(...)_3 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refri(...)_3 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515022" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refri(...)_7 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, carbon dioxide, liquid refri(...)_7 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515024" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515026" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO5, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515028" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refri(...)_5 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refri(...)_5 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515030" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refr(...)_13 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, carbon dioxide, liquid refr(...)_13 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515032" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515034" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 3.5-7.5 ton, EURO6, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515036" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refrig(...)_4 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refrig(...)_4 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515038" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refri(...)_14 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, carbon dioxide, liquid refri(...)_14 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515040" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515042" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO3, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515044" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refrig(...)_6 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refrig(...)_6 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515046" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refri(...)_12 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, carbon dioxide, liquid refri(...)_12 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515048" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515050" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO4, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515052" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refrig(...)_8 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refrig(...)_8 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515054" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refri(...)_16 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, carbon dioxide, liquid refri(...)_16 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515056" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515058" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO5, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515060" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refrig(...)_9 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refrigerant, cooling {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refrig(...)_9 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515062" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refri(...)_15 | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refrigerant, freezing {GLO}| market for transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, carbon dioxide, liquid refri(...)_15 | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515064" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, R134a refrigerant, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, R134a refrigerant, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515066" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, R134a refrigerant, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, 7.5-16 ton, EURO6, R134a refrigerant, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515068" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, cooling {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, cooling {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515070" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry with refrigeration machine, freezing {GLO}| market for | APOS, U" newName="" localName="transport, freight, lorry with refrigeration machine, freezing {GLO}| market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515079" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {BR}| market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {BR}| market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523610" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO1 to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO1 to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523731" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO2 to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO2 to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523732" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO3 to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO3 to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523733" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO5 to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, EURO5 to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523734" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, unregulated to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {BR}| transport, freight, lorry, all sizes, unregulated to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667523735" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {GLO}| market group for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {GLO}| market group for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667518719" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RER}| market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RER}| market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667517633" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO3 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO3 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515088" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO4 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO4 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515089" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO5 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO5 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515090" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO6 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RER}| transport, freight, lorry, all sizes, EURO6 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515091" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RoW}| market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RoW}| market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667519008" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO3 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO3 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515092" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO4 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO4 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515093" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO5 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO5 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515094" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO6 to generic market for | APOS, U" newName="" localName="transport, freight, lorry, unspecified {RoW}| transport, freight, lorry, all sizes, EURO6 to generic market for | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515095" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {ZA}| market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {ZA}| market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521246" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, EURO1 to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, EURO1 to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521682" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, EURO2 to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, EURO2 to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521683" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, unregulated to generic market for transport, freight, lorry, unspecified | APOS, U" newName="" localName="transport, freight, lorry, unspecified {ZA}| transport, freight, lorry, all sizes, unregulated to generic market for transport, freight, lorry, unspecified | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521684" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car {RER}| market for | APOS, U" newName="" localName="transport, passenger car {RER}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507527" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car {RoW}| market for | APOS, U" newName="" localName="transport, passenger car {RoW}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507890" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car with internal combustion engine {RER}| market for | APOS, U" newName="" localName="transport, passenger car with internal combustion engine {RER}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507741" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car with internal combustion engine {RoW}| market for | APOS, U" newName="" localName="transport, passenger car with internal combustion engine {RoW}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507836" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, electric {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, electric {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507629" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, EURO 3 {RER}| market for | APOS, U" newName="" localName="transport, passenger car, EURO 3 {RER}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507763" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, EURO 3 {RoW}| market for | APOS, U" newName="" localName="transport, passenger car, EURO 3 {RoW}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507574" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, EURO 4 {RER}| market for | APOS, U" newName="" localName="transport, passenger car, EURO 4 {RER}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507658" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, EURO 4 {RoW}| market for | APOS, U" newName="" localName="transport, passenger car, EURO 4 {RoW}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507491" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, EURO 5 {RER}| market for | APOS, U" newName="" localName="transport, passenger car, EURO 5 {RER}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507742" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, EURO 5 {RoW}| market for | APOS, U" newName="" localName="transport, passenger car, EURO 5 {RoW}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507679" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, diesel, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, diesel, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507910" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, diesel, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, diesel, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507466" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, diesel, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, diesel, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507871" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, natural gas, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, natural gas, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507609" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, natural gas, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, natural gas, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507487" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, natural gas, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, natural gas, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507659" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, petrol, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, petrol, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507876" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, petrol, EURO 4 {GLO}| market for transport, passenger car, large size, petrol, EURO 4 | APOS, U" newName="" localName="transport, passenger car, large size, petrol, EURO 4 {GLO}| market for transport, passenger car, large size, petrol, EURO 4 | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507767" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, large size, petrol, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, large size, petrol, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507460" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, diesel, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, diesel, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507827" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, diesel, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, diesel, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507615" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, diesel, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, diesel, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507680" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, liquefied petroleum gas, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, liquefied petroleum gas, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667515104" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, natural gas, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, natural gas, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507653" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, natural gas, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, natural gas, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507771" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, natural gas, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, natural gas, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507472" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, petrol, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, petrol, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507754" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, petrol, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, petrol, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507636" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, medium size, petrol, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, medium size, petrol, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507765" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, diesel, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, diesel, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507837" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, diesel, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, diesel, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507548" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, diesel, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, diesel, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507912" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, natural gas, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, natural gas, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507796" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, natural gas, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, natural gas, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507923" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, natural gas, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, natural gas, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507897" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, petrol, EURO 3 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, petrol, EURO 3 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507746" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, petrol, EURO 4 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, petrol, EURO 4 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507696" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger car, small size, petrol, EURO 5 {GLO}| market for | APOS, U" newName="" localName="transport, passenger car, small size, petrol, EURO 5 {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507834" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger coach {GLO}| market for | APOS, U" newName="" localName="transport, passenger coach {GLO}| market for | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507835" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger, bicycle {GLO}| market for | APOS, U" newName="" localName="transport, passenger, bicycle {GLO}| market for | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507678" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger, electric bicycle {GLO}| market for | APOS, U" newName="" localName="transport, passenger, electric bicycle {GLO}| market for | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507633" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger, electric bicycle, electricity from renewable energy products {GLO}| market for transport, passenger, electric bicycle, electricity from renewable energy products | APOS, U" newName="" localName="transport, passenger, electric bicycle, electricity from renewable energy products {GLO}| market for transport, passenger, electric bicycle, electricity from renewable energy products | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507824" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger, electric scooter {GLO}| market for | APOS, U" newName="" localName="transport, passenger, electric scooter {GLO}| market for | APOS, U" unit="km" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507896" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, passenger, motor scooter {GLO}| market for | APOS, U" newName="" localName="transport, passenger, motor scooter {GLO}| market for | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507620" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, regular bus {GLO}| market for | APOS, U" newName="" localName="transport, regular bus {GLO}| market for | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507775" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, tractor and trailer, agricultural {CH}| market for transport, tractor and trailer, agricultural | APOS, U" newName="" localName="transport, tractor and trailer, agricultural {CH}| market for transport, tractor and trailer, agricultural | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521256" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, tractor and trailer, agricultural {RoW}| market for transport, tractor and trailer, agricultural | APOS, U" newName="" localName="transport, tractor and trailer, agricultural {RoW}| market for transport, tractor and trailer, agricultural | APOS, U" unit="tkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667521257" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, tram {GLO}| market for | APOS, U" newName="" localName="transport, tram {GLO}| market for | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507567" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+    <process name="transport, trolleybus {GLO}| market for | APOS, U" newName="" localName="transport, trolleybus {GLO}| market for | APOS, U" unit="personkm" location="GLO" infrastructureProcess="false" processType="transport" processIdentifier="EI3ADUNI000061667507733" systemDescription="Ecoinvent v3">
+      <category name="Road"/>
+      <category name="Market"/>
+    </process>
+  </processes>
+  <mappings>
+    <categories/>
+    <units/>
+    <quantities/>
+    <substances/>
+    <processes/>
+    <sources/>
+    <dummyProcesses/>
+    <locations/>
+  </mappings>
+</root>

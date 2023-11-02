@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ecoSpold xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.EcoInvent.org/EcoSpold01" xsi:schemaLocation="http://www.EcoInvent.org/EcoSpold01 http://www.EcoInvent.org/EcoSpold01..\..\EcoSpold01Dataset.xsd">
+  <dataset validCompanyCodes="CompanyCodes.xml" validRegionalCodes="RegionalCodes.xml" validCategories="Categories.xml" validUnits="Units.xml" number="150" timestamp="2022-01-12T15:59:12" generator="SimaPro 9.4.0.2">
+    <metaInformation>
+      <processInformation>
+        <referenceFunction datasetRelatesToProduct="true" name="transport, passenger car, large size, diesel, EURO 4 {GLO}| market for | APOS, U" localName="transport, passenger car, large size, diesel, EURO 4 {GLO}| market for | APOS, U" infrastructureProcess="false" amount="1" unit="km" category="Road" subCategory="Market" localCategory="Road" localSubCategory="Market" infrastructureIncluded="false"/>
+        <geography location="GLO" text="The inventory is modelled for Global"/>
+        <technology text=""/>
+        <timePeriod dataValidForEntirePeriod="" text="">
+          <startDate>1900-01-01</startDate>
+          <endDate>1900-01-01</endDate>
+        </timePeriod>
+        <dataSetInformation type="1" impactAssessmentResult="false" timestamp="2022-01-12T15:59:12" version="2.3." internalVersion="0.0" energyValues="0" languageCode="en" localLanguageCode="de"/>
+      </processInformation>
+      <modellingAndValidation>
+        <representativeness productionVolume="459990007808 km" extrapolations="This dataset has been extrapolated from year 2012 to the year of the calculation (2021). The uncertainty has been adjusted accordingly."/>
+        <source number="1" sourceType="0" firstAuthor="Unknown" year="2022" title="Ecoinvent 3" placeOfPublications="Unspecified"/>
+      </modellingAndValidation>
+      <administrativeInformation>
+        <dataEntryBy person="2" qualityNetwork="1"/>
+        <dataGeneratorAndPublication person="3" dataPublishedIn="2" referenceToPublishedSource="1" accessRestrictedTo="0" copyright="false"/>
+        <person number="2" name="[System] support@ecoinvent.org  is active author: False" address="Unknown"/>
+        <person number="3" name="SimaPro" address="Unknown"/>
+      </administrativeInformation>
+    </metaInformation>
+    <flowData>
+      <exchange number="1" name="transport, passenger car, large size, diesel, EURO 4 {GLO}| market for | APOS, U" location="GLO" unit="km" meanValue="1" generalComment="&#xA;Production Volume Amount: 459990007808" infrastructureProcess="false">
+        <outputGroup>0</outputGroup>
+      </exchange>
+      <exchange number="2" name="transport, passenger car, large size, diesel, EURO 4 {RER}| transport, passenger car, large size, diesel, EURO 4 | APOS, U" location="GLO" unit="km" meanValue="0.175438596491228" uncertaintyType="0" generalComment="&#xA;Production Volume Amount: 80699998208" infrastructureProcess="false">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="3" name="transport, passenger car, large size, diesel, EURO 4 {RoW}| transport, passenger car, large size, diesel, EURO 4 | APOS, U" location="GLO" unit="km" meanValue="0.824561403508772" uncertaintyType="0" generalComment="&#xA;Production Volume Amount: 379289993216" infrastructureProcess="false">
+        <inputGroup>5</inputGroup>
+      </exchange>
+    </flowData>
+  </dataset>
+</ecoSpold>
